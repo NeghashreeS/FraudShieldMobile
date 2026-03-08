@@ -1,1 +1,30 @@
+public class MainActivity {
+
+    public static void main(String[] args) {
+
+        String message = "You won a lottery prize. Click link";
+
+        if(isFraud(message)){
+            System.out.println("⚠ Fraud Message Detected");
+        }
+        else{
+            System.out.println("Safe Message");
+        }
+
+    }
+
+    static boolean isFraud(String message){
+
+        String[] keywords = {"lottery","win money","click link","urgent"};
+
+        for(String word : keywords){
+            if(message.toLowerCase().contains(word)){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+}
 
