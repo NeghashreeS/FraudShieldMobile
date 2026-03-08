@@ -1,2 +1,14 @@
-# FraudShieldMobile
-A mobile app designed to help rural smartphone users identify fraud messages through automatic SMS scanning, voice alerts, and simple visual warnings.
+#FraudShieldMobile
+
+This project is a simple fraud detection system that identifies scam messages using keyword analysis.
+
+Features:
+- Detects fraud SMS messages
+- Simple keyword detection
+- Designed to help rural users identify scam messages
+
+Technology:
+Java
+
+Status:
+Prototype version
